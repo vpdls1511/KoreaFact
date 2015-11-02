@@ -1,0 +1,195 @@
+<!doctype html>
+
+<meta charset="utf-8">
+<link href="css/box.css" type="text/css" rel="stylesheet">
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link href="css/button.css" type="text/css" rel="stylesheet">
+<link href="css/login.css" type="text/css" rel="stylesheet">
+<link href="css/search.css" type="text/css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<link href="css/leftmenu.css" type="text/css" rel="stylesheet">
+<script src="js/button.js"></script>
+<script src="js/leftmenu.js"></script>
+
+
+<head>
+  <title>Koreafact</title>
+</head>
+
+
+<body>
+
+  <div id="fixbutton">
+        <a href="javascript:history.back(-1);"><img src="img/prev.png" height='18px' width='18px' align='middle'></a>
+        <img src="img/menu.png" height='18px' width='18px' align='middle'>
+        <a href="javascript:history.go(+1);"><img src="img/next.png" height='18px' width='18px' align='middle'></a>
+    </div>
+  <div id="all">
+    <div id="rect1"><!-- rect1 작업범위 -->
+
+      <a href="index.html"><p>KOREA FACT<h10> .com</h10></p></a>
+        <a href="index.html"><div class="button1">인물</div></a>
+        <a href="company.html"><div class="button1">기업</div></a>
+        <a href="policy.html"><div class="button1">정책</div></a>
+        <a href="bill.html"><div class="button1">법안</div></a>
+        <a href="verdict.html"><div class="button1">판결</div></a>
+
+      <div class="search">
+      <form method="post" class="light">
+          <input type="text" placeholder="검색 내용">
+      </form>
+    </div>
+  </div>
+
+  <div id="login"><!-- login 작업범위 -->
+    <input type="text" placeholder="ID">
+    <input type="checkbox" name="auto" class="autoid"><label>아이디 저장</label>
+    <input type="password" placeholder="PW">
+    <div class="loginbutton"><h20>로그인</h20></div>
+    </br></br>
+    <div id="boxbox">
+        <div class="registerbutton"><input onclick="regis()" type="button" value="회원가입"></div>
+
+      <div class="find">아이디·비번찾기</div>
+    </div>
+  </div>
+
+  <div id="submenu"><!-- submenu 작업범위 -->
+    &nbsp;&nbsp;&nbsp;<a href="#">MY MENU </a><img src="img/setting.png" height='18px' width='18px' align='middle'>
+    <h13>(게시판,페이지 등을 자신만의 메뉴로 등록하는<img src="img/bookmark.png" height='18px' width='18px' align='middle'>북마크 개념)<h13>
+      </div>
+      <div id="menu">
+        <div class="menubutton">전체 인물</div>
+        <div class="menubutton">전체 법안</div>
+        <div class="menubutton">ALL 게시판</div>
+        <div class="menubutton">자유</div>
+        <div class="menubutton">건의</div>
+        <div class="menubutton">공지</div>
+      </div>
+
+      <nav id="navmenu">
+        <div id="boxboxbox">
+          <div id="select">
+          <select name="formselect1" size="1">
+            <option>분류를 모두 포함</option>
+            <option>분류를 하나라도 포함</option>
+          </select>
+          </div>
+          <div class="reset"><h66>체크박스 초기화 버튼</h66></div>
+        </div>
+
+        <div id="box">
+          <h10>[2016.4.13 선거]<h10></br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<h9>지역</h9></br>
+          시·도&nbsp;&nbsp;
+          <select name="formselect2" size="1">
+            <option> 선택 </option>
+          </select></br>
+          <h9>선거구</h9>&nbsp;
+          <select name="formselect2" size="1">
+            <option> 선택 </option>
+          </select>
+        </div>
+
+        <div id='cssmenu'>
+          <ul>
+            <li class='has-sub'><a  ><span>재산</span></a>
+              <ul>
+                <li><a  ><input type="checkbox"><lable>1억 미만</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>1억~5억 미만</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>5억~10억 미만</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>10억~50억 미만</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>50억 초과</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>알 수 없음</lable></a></li>
+                <li class='last'><a><input type="text"><label>원 ~ </label><input type="text"><label>원</label> <input type="submit" value="검색"></a></li>
+              </ul>
+            </li>
+
+              <li class='has-sub'><a  ><span>과거 행적</span></a>
+                <ul>
+                  <li><a  ><input type="checkbox"><lable>병역</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>친일후손</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>성범죄</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>가족·친인척</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>뇌물</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>탈세</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>체납</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>의혹</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>논란</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>이슈</lable></a></li>
+                <li class='last'><a  ><input type="checkbox"><lable>기타 위법</lable></a></li>
+                </ul>
+              </li>
+
+              <li class='has-sub'><a  ><span>법안 관련 분야</span></a>
+                <ul>
+                  <li><a  ><input type="checkbox"><lable>청년 복지</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>서민 경제</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>노동자</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>건강·안전</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>사회적약자·통합</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>제도 개선</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>환경</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>디지털인프라</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>문화·체육</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>교육·연구</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>농림축수산</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>국방·외교</lable></a></li>
+                <li class='last'><a  ><input type="checkbox"><lable>기타</lable></a></li>
+                </ul>
+              </li>
+
+              <li class='has-sub'><a  ><span>법안 시기</span></a>
+              <ul>
+                <li><a  ><input type="checkbox"><lable>19대</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>18대</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>17대</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>16대</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>15대</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>14대</lable></a></li>
+                <li class='last'><a  ><input type="checkbox"><lable>13대 이하</lable></a></li>
+              </ul>
+            </li>
+
+            <li class='has-sub'><a  ><span>소속 정당</span></a>
+              <ul>
+                <li><a  ><input type="checkbox"><lable>새누리</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>새민련</lable></a></li>
+                <li><a  ><input type="checkbox"><lable>정의당</lable></a></li>
+                <li><a ><input type="checkbox"><lable>기타</lable></a></li>
+                <li class='last'><a ><input type="checkbox"><lable>무소속</lable></a></li>
+              </ul>
+            </li>
+
+            <li class='has-sub'><a  ><span>나이</span></a>
+              <ul>
+                <li><a ><input type="checkbox"><lable>~1990년 출생</lable></a></li>
+                <li><a ><input type="checkbox"><lable>1991~1980년 출생</lable></a></li>
+                <li><a ><input type="checkbox"><lable>1981~1970년 출생</lable></a></li>
+                <li><a ><input type="checkbox"><lable>1971~1960년 출생</lable></a></li>
+                <li><a ><input type="checkbox"><lable>1961년 출생~</lable></a></li>
+                <li class='last'><a  ><input type="checkbox"><lable>알 수 없음</lable></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+        <div id="headbox">
+        &nbsp;&nbsp;&nbsp;[ 메인 페이지 ]</br>
+      <center><h123>헤드라인</h123></center>
+      </div>
+
+    <div id="article">
+
+
+
+</div>
+
+  <footer>
+
+  </footer>
+
+  </div>
+
+</body>
