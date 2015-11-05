@@ -45,3 +45,7 @@ background-image: -o-linear-gradient(top, #fff, #fff 3%, #fff 12%, #fff 90%, whi
 background-image: -ms-linear-gradient(top, #fff, #fff 3%, #fff 12%, #fff 90%, white);
 background-image: linear-gradient(to bottom, #fff, #fff 3%, #fff 12%, #fff 90%, white);
 }
+
+.choicebutton123 {
+    float: right;
+}
