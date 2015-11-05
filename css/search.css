@@ -1,0 +1,16 @@
+#cssmenu input[type="text"]{
+  width:50px;
+  background:rgb(224, 224, 224);
+  border:1px solid #fff;
+}
+
+.moneysearch{
+  float:left;
+}
+
+#cssmenu input[type="submit"]{
+  margin-top:2px;
+  background:rgb(224, 224, 224);
+  border-radius:4px;
+  border:1px solid #fff;
+}

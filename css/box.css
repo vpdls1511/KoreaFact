@@ -1,0 +1,58 @@
+@import url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css);
+
+#boxboxbox{
+  width:auto;
+  height:auto;
+  margin:5px;
+  border:1px solid #999;
+  border-radius:5px;
+}
+
+
+
+#select{
+  margin:5px;
+}
+
+#select select[name="formselect1"]{
+  width:190px;
+  height:20px;
+}
+
+#box{
+  width:auto;
+  height:auto;
+  margin:5px;
+  border:1px solid #999;
+  border-radius:5px;
+  padding:5px;
+
+}
+#headbox{
+    font-family:'Noto Sans Korean', sans-serif;
+    font-size:20px;
+    position: absolute;
+    top:200px;
+    margin-left: 230px;
+    width: 787px;
+    border-bottom: 2px solid #999;
+
+}
+h123{
+   font-family:'Noto Sans Korean', sans-serif;
+    font-size:40px;
+    font-weight: bold;
+}
+#fixbutton{
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+
+
+}
+
+#article {
+    width: 500px;
+    border: 1px solid #999;
+
+}
